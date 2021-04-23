@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteKeeper</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="title_activity_note">Jegyzet szerkesztés</string>
+    <string name="title_send_as_email">Küldés emailként</string>
+    <string name="title_cancel">Mégsem</string>
+    <string name="title_notes">Jegyzetek</string>
+    <string name="title_courses">Kurzusok</string>
+    <string name="title_communicate">Kommunikáció</string>
+    <string name="title_send">Küldés</string>
+    <string name="title_share">Megosztás</string>
+    <string name="text_course">Kurzus Név</string>
+    <string name="text_title">Jegyzet Cím</string>
+    <string name="text_next">Következő</string>
+    <string name="hint_note_title">Jegyzet Cím</string>
+    <string name="hint_note_text">Jegyzet Szöveg</string>
+    <string name="nav_share_message">Megosztva</string>
+    <string name="nav_send_message">Elküldve</string>
+    <string name="pref_title_signature">A neved</string>
+    <string name="pref_default_signature">Az alapértelmezett neved</string>
+    <string name="pref_title_email_address">Email cím</string>
+    <string name="pref_title_user_favorite_social">Kedvenc közösségi oldal</string>
+    <string name="title_menu_item_set_reminder">Emlékeztető beállítása</string>
+    <string name="title_backup_notes">Jegyzetek biztonsági mentése</string>
+    <string name="title_upload_notes">Jegyzetek feltöltése</string>
+</resources>

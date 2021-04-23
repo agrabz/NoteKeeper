@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">NoteKeeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_note_list">NoteListActivity</string>
+    <string name="title_activity_note">Edit Note</string>
+    <string name="title_send_as_email">Send as email</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_courses">Courses</string>
+    <string name="title_communicate">Communicate</string>
+    <string name="title_send">Send</string>
+    <string name="title_share">Share</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="text_course">Course Name</string>
+    <string name="text_title">Note Title</string>
+    <string name="text_next">Next</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="hint_note_title">Note Title</string>
+    <string name="hint_note_text">Note Text</string>
+    <string name="nav_share_message">Shared</string>
+    <string name="nav_send_message">Send</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Customization settings</string>
+
+    <!-- Default Preferences -->
+    <string name="pref_title_signature">Your name</string>
+    <string name="pref_default_signature">Your default name</string>
+
+    <!-- Sync Preferences -->
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="pref_title_email_address">Email address</string>
+    <string name="pref_default_email_address">yourname@yourhost.com</string>
+    <string name="pref_title_user_favorite_social">Favorite social network</string>
+    
+    <string-array name="pref_entries_favorite_social">
+        <item>Instagram</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+    </string-array>
+    <string-array name="pref_values_urls_favorite_social">
+        <item>https://instagram.com</item>
+        <item>https://facebook.com</item>
+        <item>https://twitter.com</item>
+    </string-array>
+    <string name="pref_default_favorite_social">https://instagram.com</string>
+    <string name="title_menu_item_set_reminder">Set reminder</string>
+    <string name="channel_name">akos_notification_channel_id</string>
+    <string name="channel_description">akos_notification_channel_description</string>
+    <string name="title_backup_notes">Backup Notes</string>
+    <string name="title_upload_notes">Upload Notes</string>
+
+    <!-- TODO: translation-->
+</resources>
