@@ -1,10 +1,12 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.settings;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
+
+import com.sap.akos.notekeeper.R;
 
 public class SettingsActivity extends AppCompatActivity {
     @Override

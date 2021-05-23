@@ -1,4 +1,4 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.main;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,10 +27,18 @@ import android.widget.ProgressBar;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Spinner;
 
+import com.sap.akos.notekeeper.broadcast.CourseEventBroadcastHelper;
+import com.sap.akos.notekeeper.db.NoteKeeperOpenHelper;
+import com.sap.akos.notekeeper.services.NoteReminderReceiver;
+import com.sap.akos.notekeeper.R;
+import com.sap.akos.notekeeper.data.CourseInfo;
+import com.sap.akos.notekeeper.data.DataManager;
+import com.sap.akos.notekeeper.data.NoteInfo;
+
 import java.lang.ref.WeakReference;
 
-import static com.sap.akos.notekeeper.NoteKeeperDatabaseContract.*;
-import static com.sap.akos.notekeeper.NoteKeeperProviderContract.*;
+import static com.sap.akos.notekeeper.db.NoteKeeperDatabaseContract.*;
+import static com.sap.akos.notekeeper.db.NoteKeeperProviderContract.*;
 
 //TODO add delete option to UI (slide, settings...)
 public class NoteActivity extends AppCompatActivity

@@ -1,4 +1,4 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;

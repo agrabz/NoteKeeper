@@ -1,7 +1,10 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.data;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+
+import com.sap.akos.notekeeper.db.NoteKeeperDatabaseContract;
+import com.sap.akos.notekeeper.db.NoteKeeperOpenHelper;
 
 import java.util.ArrayList;
 import java.util.List;

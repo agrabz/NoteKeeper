@@ -1,4 +1,4 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.main;
 
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
@@ -19,6 +19,18 @@ import android.widget.TextView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+import com.sap.akos.notekeeper.BuildConfig;
+import com.sap.akos.notekeeper.model.CourseRecyclerAdapter;
+import com.sap.akos.notekeeper.services.NoteBackup;
+import com.sap.akos.notekeeper.services.NoteBackupService;
+import com.sap.akos.notekeeper.db.NoteKeeperOpenHelper;
+import com.sap.akos.notekeeper.db.NoteKeeperProviderContract;
+import com.sap.akos.notekeeper.model.NoteRecyclerAdapter;
+import com.sap.akos.notekeeper.services.NoteUploaderJobService;
+import com.sap.akos.notekeeper.R;
+import com.sap.akos.notekeeper.settings.SettingsActivity;
+import com.sap.akos.notekeeper.data.CourseInfo;
+import com.sap.akos.notekeeper.data.DataManager;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -37,11 +49,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import static com.sap.akos.notekeeper.NoteKeeperDatabaseContract.*;
+import static com.sap.akos.notekeeper.db.NoteKeeperDatabaseContract.*;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         LoaderManager.LoaderCallbacks<Cursor> {
+
     public static final int NOTE_UPLOADER_JOB_ID = 1;
     private NoteRecyclerAdapter mNoteRecyclerAdapter;
     private RecyclerView mRecyclerItems;

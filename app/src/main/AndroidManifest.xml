@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SettingsActivity"
+            android:name=".settings.SettingsActivity"
             android:label="@string/title_activity_settings" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".main.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -24,22 +24,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NoteListActivity"
+            android:name=".main.NoteListActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".NoteActivity"
+            android:name=".main.NoteActivity"
             android:label="@string/title_activity_note"
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <provider
-            android:name=".NoteKeeperProvider"
+            android:name=".db.NoteKeeperProvider"
             android:authorities="com.sap.akos.notekeeper.provider"
             android:enabled="true"
             android:exported="false" />
 
         <receiver
-            android:name=".NoteReminderReceiver"
+            android:name=".services.NoteReminderReceiver"
             android:process=":remote"
             android:enabled="true"
             android:exported="true">
@@ -49,12 +49,12 @@
         </receiver>
 
         <service
-            android:name=".NoteUploaderJobService"
+            android:name=".services.NoteUploaderJobService"
             android:enabled="true"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
         <service
-            android:name=".NoteBackupService"
+            android:name=".services.NoteBackupService"
             android:exported="false" />
     </application>
 

@@ -1,4 +1,4 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.db;
 
 import android.content.ContentProvider;
 import android.content.ContentResolver;
@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-import static com.sap.akos.notekeeper.NoteKeeperDatabaseContract.*;
-import static com.sap.akos.notekeeper.NoteKeeperProviderContract.*;
+import static com.sap.akos.notekeeper.db.NoteKeeperDatabaseContract.*;
+import static com.sap.akos.notekeeper.db.NoteKeeperProviderContract.*;
 
 public class NoteKeeperProvider extends ContentProvider {
 

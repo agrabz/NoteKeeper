@@ -1,8 +1,7 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.services;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.provider.ContactsContract;
 
 
 /**

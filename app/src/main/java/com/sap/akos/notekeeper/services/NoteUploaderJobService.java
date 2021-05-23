@@ -1,12 +1,11 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.services;
 
-import android.app.Service;
 import android.app.job.JobParameters;
 import android.app.job.JobService;
-import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.IBinder;
+
+import com.sap.akos.notekeeper.services.NoteUploader;
 
 public class NoteUploaderJobService extends JobService {
 

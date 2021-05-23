@@ -1,10 +1,13 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
+
+import com.sap.akos.notekeeper.db.DatabaseDataWorker;
+import com.sap.akos.notekeeper.db.NoteKeeperDatabaseContract;
 
 //TODO: adb exec-out "run-as com.sap.akos.notekeeper cat databases/NoteKeeper.db" > NoteKeeper.db
 //TODO: C:\Users\I332442\Downloads\sqlite\sqlite-tools-win32-x86-3350400\sqlite3.exe C:\Users\I332442\Desktop\My_incidents\390220\NoteKeeper2\NoteKeeper.db

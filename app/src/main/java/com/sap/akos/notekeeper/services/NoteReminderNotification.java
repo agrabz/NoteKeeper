@@ -1,6 +1,5 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.services;
 
-import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -13,6 +12,12 @@ import android.graphics.BitmapFactory;
 import android.os.Build;
 
 import androidx.core.app.NotificationCompat;
+
+import com.sap.akos.notekeeper.R;
+import com.sap.akos.notekeeper.main.MainActivity;
+import com.sap.akos.notekeeper.main.NoteActivity;
+import com.sap.akos.notekeeper.services.NoteBackup;
+import com.sap.akos.notekeeper.services.NoteBackupService;
 
 public class NoteReminderNotification {
 

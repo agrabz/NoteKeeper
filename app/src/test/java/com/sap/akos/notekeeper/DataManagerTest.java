@@ -1,5 +1,9 @@
 package com.sap.akos.notekeeper;
 
+import com.sap.akos.notekeeper.data.CourseInfo;
+import com.sap.akos.notekeeper.data.DataManager;
+import com.sap.akos.notekeeper.data.NoteInfo;
+
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;

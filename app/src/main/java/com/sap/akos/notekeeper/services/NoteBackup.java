@@ -1,10 +1,10 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.services;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.util.Log;
 
-import static com.sap.akos.notekeeper.NoteKeeperProviderContract.*;
+import static com.sap.akos.notekeeper.db.NoteKeeperProviderContract.*;
 
 
 public class NoteBackup {

@@ -1,8 +1,10 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.services;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+
+import com.sap.akos.notekeeper.services.NoteReminderNotification;
 
 public class NoteReminderReceiver extends BroadcastReceiver {
 

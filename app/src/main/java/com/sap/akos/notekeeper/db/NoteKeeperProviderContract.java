@@ -1,4 +1,4 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.db;
 
 import android.net.Uri;
 import android.provider.BaseColumns;

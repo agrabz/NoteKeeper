@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NoteActivity">
+    tools:context=".main.NoteActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/AppBarLayout"

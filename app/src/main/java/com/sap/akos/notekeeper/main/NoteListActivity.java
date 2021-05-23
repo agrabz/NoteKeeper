@@ -1,23 +1,23 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.main;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.sap.akos.notekeeper.model.NoteRecyclerAdapter;
+import com.sap.akos.notekeeper.R;
+import com.sap.akos.notekeeper.data.DataManager;
+import com.sap.akos.notekeeper.data.NoteInfo;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.provider.ContactsContract;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 import java.util.List;
 

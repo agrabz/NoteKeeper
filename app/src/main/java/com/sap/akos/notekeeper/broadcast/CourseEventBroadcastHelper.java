@@ -1,4 +1,4 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.broadcast;
 
 import android.content.Context;
 import android.content.Intent;

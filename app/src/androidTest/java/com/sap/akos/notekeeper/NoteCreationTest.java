@@ -1,8 +1,12 @@
 package com.sap.akos.notekeeper;
 
-import androidx.test.espresso.ViewInteraction;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+
+import com.sap.akos.notekeeper.data.CourseInfo;
+import com.sap.akos.notekeeper.data.DataManager;
+import com.sap.akos.notekeeper.data.NoteInfo;
+import com.sap.akos.notekeeper.main.NoteListActivity;
 
 import org.junit.BeforeClass;
 import org.junit.Rule;

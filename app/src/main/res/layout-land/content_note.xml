@@ -55,7 +55,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
 
-    <com.sap.akos.notekeeper.ModuleStatusView
+    <com.sap.akos.notekeeper.custom.ModuleStatusView
         android:id="@+id/moduleStatusView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

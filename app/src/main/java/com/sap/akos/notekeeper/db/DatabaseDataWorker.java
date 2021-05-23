@@ -1,4 +1,4 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.db;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;

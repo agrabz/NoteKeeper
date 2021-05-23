@@ -1,12 +1,14 @@
 package com.sap.akos.notekeeper;
 
 import androidx.test.espresso.Espresso;
-import androidx.test.espresso.action.ViewActions;
 import androidx.test.espresso.contrib.DrawerActions;
 import androidx.test.espresso.contrib.NavigationViewActions;
 import androidx.test.espresso.contrib.RecyclerViewActions;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
-import androidx.test.rule.ActivityTestRule;
+
+import com.sap.akos.notekeeper.data.DataManager;
+import com.sap.akos.notekeeper.data.NoteInfo;
+import com.sap.akos.notekeeper.main.MainActivity;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -18,7 +20,6 @@ import static androidx.test.espresso.action.ViewActions.*;
 import static androidx.test.espresso.assertion.ViewAssertions.*;
 import static androidx.test.espresso.matcher.ViewMatchers.*;
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
 
 public class NextThroughNotesTest {
     @Rule

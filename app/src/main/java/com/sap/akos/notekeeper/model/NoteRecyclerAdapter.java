@@ -1,4 +1,4 @@
-package com.sap.akos.notekeeper;
+package com.sap.akos.notekeeper.model;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,9 +11,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.List;
+import com.sap.akos.notekeeper.R;
+import com.sap.akos.notekeeper.main.NoteActivity;
 
-import static com.sap.akos.notekeeper.NoteKeeperDatabaseContract.*;
+import static com.sap.akos.notekeeper.db.NoteKeeperDatabaseContract.*;
 
 public class NoteRecyclerAdapter extends RecyclerView.Adapter<NoteRecyclerAdapter.ViewHolder> {
 
